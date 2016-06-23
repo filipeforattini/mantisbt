@@ -1,0 +1,27 @@
+{
+    "name": "mantisbt/mantisbt",
+    "license": "GFDL",
+    "authors": [
+        {
+            "name": "MantisBT Development Team",
+            "email": "mantisbt-dev@lists.sourceforge.net"
+        }
+    ],
+    "config": {
+        "vendor-dir": "library/vendor"
+    },
+	"repositories": [
+	    {
+        	"type": "vcs",
+            "url": "git@github.com:vboctor/disposable_email_checker.git"
+        }
+    ],
+    "require": {
+        "adodb/adodb-php": "^5.20",
+        "vboctor/disposable_email_checker": "^2.1",
+        "zetacomponents/Base": "^1.9",
+        "zetacomponents/Graph": "^1.5",
+        "phpmailer/phpmailer": "^5.2",
+        "dapphp/securimage": "^3.6"
+    }
+}
